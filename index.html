@@ -2,58 +2,215 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Gifter</title>
+    <title>Yauheni Ordynets</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
-        crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
-<body>
-    <div class="wrapper">
-        <div class="header">
-            <div class="menu">
+<body id="top">
+    <header>
+        <div class="top_bar">
+            <div class="toggle">
                 <input type="checkbox" id="check" class="hamburger-menu">
-                <label class="btn-menu" for = "check">
-                    <span class = "first"></span>
-                    <span class = "second"></span>
-                    <span class = "third"></span>
+                <label class="btn-menu" for="check">
+                    <span class="first"></span>
+                    <span class="second"></span>
+                    <span class="third"></span>
                 </label>
-                <span class = "menu_title">Menu</span>
                 <ul class="navbar">
-                    <li>Contact</li>
-                    <li>Home</li>
+                    <li class="current"><a href="#home"> Home</a></li> 
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                 </ul>
             </div>
             <div class="logo">
-                <img src="img/logo.png" alt="Gifter">
-            </div>
-            <div class="empty"></div>
-        </div>
-        <div class="content">
-            <div class="main_title">
-                <h1>we are</h1>
-                <h1> in every project</h1>
-                <h2>We are in every project</h2>
-            </div>
-            <a href="/get"><div>See our portfolio</div></a>
-        </div> 
-        <div class="slider">
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                </ol>
+                <img src="img/logo.png" alt="">
             </div>
         </div>
-    </div>
+    </header>
+    <section id ="home">
+        <p class="developing">*in developing</p>
+        <div class="home-overlay"></div>
+        <div class="home-content">
+            <div class="row">
+                <h5>Hello, World!</h5>
+                <h1>I'm Yauheni Ordynets.</h1>
+                <p class="position">
+                    <span>Front-end Developer</span>
+                    <span>UI Designer</span>
+                </p>
+                <a class="button" href="#about" >About Me</a>
+            </div>
+        </div>
+        <ul class="home-social">        
+            <li><a href="https://www.facebook.com/profile.php?id=100002248832001" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://vk.com/id28696262" target="_blank"><i class="fa fa-vk"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/yauheniordynets/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </section>
+    <section id="about">    
+        <div class="row">  
+            <h5>About</h5>
+            <h2>Let me introduce myself.</h2>        
+            <img src="img/profile.jpg" alt="Profile Picture">    
+            <p class="introduction">A regular guy who love volley and trying to get
+            his first job offer in IT sphere.</p>
+        </div>
+        <div class="row about-content">
+            <div class="col">
+                <h3>Profile</h3>
+                <p></p>
+                <ul class="info-list">
+                    <li>
+                        <strong>Fullname:</strong>
+                        <span>Ordynets Yauheni</span>
+                    </li>
+                    <li>
+                        <strong>Birth Date:</strong>
+                        <span>January 21, 1992</span>
+                    </li>
+                    <li>
+                        <strong>Job:</strong>
+                        <span>Engineer</span>
+                    </li>
+                    <li>
+                        <strong>Website:</strong>
+                        <span>yauheniordynets.github.io</span>
+                    </li>
+                    <li>
+                        <strong>Email:</strong>
+                        <span>yauheniordynets@gmail.com</span>
+                    </li>
+   			    </ul>
+            </div>
+            <div class="col">
+                <h3>Skills</h3>
+                <ul class="skill-bars">
+				    <li>
+				   	    <strong>HTML, CSS</strong>
+				    </li>
+				    <li>
+				   	    <strong>Bootstrap</strong>
+				    </li>
+				    <li>
+				   	    <strong>Flexbox</strong>
+				    </li>
+				    <li>
+				    	<strong>JavaScript</strong>
+				    </li>
+				    <li>
+				    	<strong>Angular 2/4</strong>
+                    </li>    
+                    <li>
+                        <strong>Sass</strong>
+                    </li>
+                    <li>
+                        <strong>Teamwork experience</strong>
+                    </li>
+				</ul>
+            </div>
+        </div>
+    </section>  
+    <section id="resume">
+		<div class="row">
+   			<h5>Resume</h5>
+   			<h2>More of my credentials.</h2>
+   		</div>
+   	    <div class="row">
+            <div class="resume-header">
+                <h4>Work Experience</h4>
+            </div>
+            <div class="experience-wrap">
+                <div class="experience-block">
+                    <div class="experience-header">
+                        <h3>UI Designer/Front-end developer</h3>
+                        <p>Soon...</p>
+                    </div>
+                    <div class="experience-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h4>Awesome Company</h4>
+                        <p>Soon there will be some text...</p>
+                    </div>
+                </div>
+                <div class="experience-block">
+                    <div class="experience-header">
+                        <h3>Engineer technologyst</h3>
+                        <p>August 2014 - January 2018</p>
+                    </div>
+                    <div class="experience-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h4>Svetopribor</h4>
+                        <p>Development and implementation of manufacturing methods. Improvement of existing technological processes.</p>
+                    </div>
+                </div>   			
+            </div>				
+        </div>
+        <div class="row">
+            <div class="resume-header">
+                <h4>Education</h4>
+            </div>
+            <div class="experience-wrap">
+                <div class="experience-block">
+                    <div class="experience-header">
+                        <h3>Tester</h3>
+                        <p>2015</p>
+                    </div>
+                    <div class="experience-icon">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h4>BelHard</h4>
+                        <p>Software testing.</p>
+                    </div>
+                </div>
+                <div class="experience-block">
+                    <div class="experience-header">
+                        <h3>Engineer</h3>
+                        <p>2009-2014</p>
+                    </div>
+                    <div class="experience-icon">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h4>Belarusian National Technical University</h4>
+                        <p>Faculty of Mechanical Engineering.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">    
+        <div class="row">    
+            <h5>Portfolio</h5>
+            <h1>Check Out Some of My Works.</h1>
+        </div>
+
+            <div class="portfolio-item">
+                
+                <a href="https://yauheniordynets.bitbucket.io/" target="_blank" class="overlay">
+                    <img src="img/portfolio/carwash.jpg" alt="CarWash">
+                    <div class="portfolio-item-title">
+                        <h2>CarWash</h2>
+                    </div>
+                </a>
+
+            </div>
+    </section>
+    <footer>
+     	<div class="row">
+	      	<div class="copyright"> 
+		        	<span>Design by <a href="https://yauheniordynets.github.io/" target="_blank">Sharik</a> + internet</span>	         	
+		    </div>
+            <ul class="footer-social">        
+                <li><a href="https://www.facebook.com/profile.php?id=100002248832001" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://vk.com/id28696262" target="_blank"><i class="fa fa-vk"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/yauheniordynets/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>  
+      	</div>  	
+   </footer>  
 </body>
 </html>
