@@ -300,7 +300,7 @@ section .about-content {
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-size: 1.5rem;
-    line-height: 3rem;
+    line-height: 4rem;
 }
 
 .about-content .info-list li span {
@@ -308,7 +308,7 @@ section .about-content {
     font-family: "poppins-regular", sans-serif;
     color: #888888;
     font-size: 1.5rem;
-    line-height: 1;
+    line-height: 2rem;
 }
 
 h4 {
