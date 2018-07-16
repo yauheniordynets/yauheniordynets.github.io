@@ -269,6 +269,7 @@ p.introduction {
     font-size: 2rem;
     line-height: 1.8;
     color: #888888;
+    margin: 0 15rem;
 }
 
 section .about-content {
@@ -370,14 +371,21 @@ h4 {
     width: 33%;
 }
 
+.portfolio_container {
+    display: flex;
+}
+
 .portfolio-item {
     width: 50%;
+    height: 41rem;
     overflow: hidden;
-    padding: 5rem;
+    margin: 5rem 0;
 }
 
 .portfolio-item img {
     width: 100%;
+    height: 100%;
+ 
 }
 
 .portfolio-item-title {
