@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="utf-8">
+	<style>
+</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Проектирование систем вентиляции, электро- и водоснабжения - ТитанПроект</title>
+	<script src="js/script.js"></script>
+	<link rel="shortcut icon" src="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+	<header>
+		<div class="hamburger_container">
+			<input type="checkbox" id="menu" class="hamburger_menu" onclick="myFunction()">
+			<label class="btn_menu" for="menu"></label>
+		</div>
+		<div class="header_menu" >
+		<img src="img/cropped-logo-1-190x91.jpg" alt="ТитанПроект">
+		<ul class="navbar">
+			<li><a href="#services">Услуги</a></li>
+			<li><a href="#about_us">О нас</a></li>
+			<li><a href="#choose_us">Наши преимущества</a></li>
+		</ul>
+		<div class="header_buttons">
+			<button  class="download button" onclick="openModal()">Скачать опросник</button>
+			<a href="tel:+375 33 33 22 66 5" class="phone_button">+375 33 33 22 66 5</a>
+		</div>
+		</div>
+	</header>
+	<div class="section home">
+		<div class="title">Проектирование систем</div>
+		<div class="subtitle">
+			<ul>
+				<li>- Электроснабжения</li>
+				<li>- Водоснабжения</li>
+				<li>- Вентиляции</li>
+			</ul>
+			<div>
+				ПРЕДВАРИТЕЛЬНЫЙ АУДИТ ВАШЕГО ЗАДАНИЯ
+				<br>
+				ТРИ БЕСПЛАТНЫХ ВАРИАНТА ПРОЕКТА
+			</div>
+		</div>
+		<button  class="info button">УЗНАТЬ ПОДРОБНОСТИ</button>
+		<a href="#services" class="arrow_container">
+			<div class="arrow"></div>
+		</a>
+	</div>
+	<div class="section services">
+		<a name="services"></a>
+		<h1>Наши направления</h1>
+		<div class="description">Компания ООО «ТитанПроект» занимается проектированием инженерных сетей любой сложности</div>
+		<div class="services_container">
+			<div class="service">
+				<div class="image ventilation"></div>
+				<h2>Вентиляция</h2>
+				<ul>
+					<li>- Принудительная</li>
+					<li>- С рекуперацией</li>
+					<li>- Кондиционирование</li>
+					<li>- Теплоснабжение и тд.</li>
+				</ul>
+				<button  class="price button">Узнать стоимость проекта</button>
+			</div>
+			<div class="service">
+				<div class="image power"></div>
+				<h2>Электроснабжение</h2>
+				<ul>
+					<li>- Силовое</li>
+					<li>- Слаботочное</li>
+					<li>- Внутреннее</li>
+					<li>- Наружнее</li>
+				</ul>
+				<button  class="price button">Узнать стоимость проекта</button>
+			</div>
+			<div class="service">
+				<div class="image heating"></div>
+				<h2>Отопление</h2>
+				<ul>
+					<li>- Расчет тепло потерь здания</li>
+					<li>- Выбор оптимальной схемы отопления</li>
+					<li>- Внутренние и наружные сети</li>
+				</ul>
+				<button  class="price button">Узнать стоимость проекта</button>
+			</div>
+		</div>
+	</div>
+	<div class="section about">
+		<a name="about_us"></a>
+		<h1>О нас в цифрах</h1>
+		<div class="numbers_container">
+			<div class="section wrapper">
+				<div class="number">7</div>
+				<div class="line"></div>
+				<div class="text">Лет стабильной работы</div>
+			</div>
+			<div class="section wrapper">
+				<div class="number">73</div>
+				<div class="line"></div>
+				<div class="text">Заказчика по всей стране</div>
+			</div>
+			<div class="section wrapper">
+				<div class="number">26</div>
+				<div class="line"></div>
+				<div class="text">Компетентных специалистов в штате</div>
+			</div>
+			<div class="section wrapper">
+				<div class="number">100+</div>
+				<div class="line"></div>
+				<div class="text">Реализованных проектов</div>
+			</div>
+		</div>
+	</div>
+	<div class="section consultation">
+		<h1>Получить консультацию специалиста</h1>
+		<div class="description">Оставьте заявку и менеджер свяжется с Вами в течении часа</div>
+		<div class="form_wrapper">
+			<input type="text" class="consultation_input" placeholder="Ваше имя">
+			<input type="text" class="consultation_input" placeholder="Ваш телефон">
+			<button class="send button">Отправить</button>
+		</div>
+	</div>
+	<div class="section choose">
+		<a name="choose_us"></a>
+		<div class="title">Выбирая нас, Вы получаете:</div>
+		<div class="choose_container">
+			<div class="choose_item">
+				<div class="img star"></div>
+				<div class="text_container">
+					<h2>Качественную работу</h2>
+					<p>Детально проработанные проектные решения с гарантией прохождения экспертизы.</p>
+				</div>
+			</div>
+			<div class="choose_item">
+				<div class="img money"></div>
+				<div class="text_container">
+					<h2>Экономию денежных средств</h2>
+					<p>Экономию при строительстве объекта за счет экономически выгодных решений принятых на стадии проектирования.</p>
+				</div>
+			</div>
+			<div class="choose_item">
+				<div class="img speech"></div>
+				<div class="text_container">
+					<h2>Уверенность в проекте</h2>
+					<p>Готовое решение проблемы, ответственность за которое несет проектная организация.</p>
+				</div>
+			</div>
+			<div class="choose_item">
+				<div class="img badge"></div>
+				<div class="text_container">
+					<h2> Надежность объекта</h2>
+					<p>Гарантию безопасной эксплуатации объекта.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
+	<div class="chat_button">
+		<label class="icon_menu" for="channels"></label>
+		<input type="checkbox" id="channels" class="icon_button">
+		<div class="icon paw"></div>	
+		<div class="icon chat"></div>
+		<div class="icon back"></div>
+		<div class="small chat_button direct"></div>
+		<div class="small chat_button telegram"></div>
+		<div class="small chat_button sms"></div>
+		<div class="small chat_button mail"></div>
+	</div>
+	<div class="circle"></div>
+	<div class="filled_circle"></div>	
+	<div id="myModal" class="modal">
+		<span class="close" onclick="closeModal()">&times;</span>
+		<div class="modal_content">
+			<div class="modal_image"></div>
+			<h1>Заполните форму и наш менеджер вышлет Вам опросник</h1>
+			<div class="form_container">
+				<input type="text" placeholder="Имя">
+				<input type="text" placeholder="Почта">
+				<input type="text" placeholder="Телефон">
+				<button>Отправить</button>
+			</div>
+			<span>Это абсолютно бесплатно</span>
+		</div>
+	
+	</div>
+</body>
+</html>
