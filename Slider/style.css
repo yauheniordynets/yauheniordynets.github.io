@@ -1,9 +1,7 @@
 .wrapper {
-    width: 300px;
-    height: 300px;
-    position: relative;
-
-    /* overflow: hidden; */
+    position: absolute;
+    margin: 100px;
+    left: 0;
 }
 
 .slide, .slide img {
@@ -11,13 +9,35 @@
     height: 300px;
 }
 
-.slider {
-    width: 900px;
+.slide {
     position: relative;
+    float: left;
+    transform: translateX(-300px);
+    -webkit-transform: translateX(-300px);
+    -moz-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    -o-transform: translateX(-300px);
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
 }
 
-.slide {
-    float: left;
+.hidden {
+    visibility: hidden;
+}
+
+.slider {
+    width: 900px;
+    display: flex;
+    overflow: hidden;
+    padding: 30px 0;
+    position: absolute;
+    left: 0;
 }
 
 .slide img {
@@ -26,6 +46,61 @@
     height: inherit;
 }
 
-.button {
+.buttons {
+    width: 1010px;
+    position: absolute;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons span {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.buttons span:hover {
+    opacity: 1;
+}
+
+.product button {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+}
+
+.next, .prev {
+    padding: 10px;
     position: relative;
+    margin-left: 27px;
+}
+
+.prev::after, .prev::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    border: 20px solid transparent;
+    border-right: 20px solid black;
+}
+
+.prev::after {
+    border-right: 20px solid white;
+    bottom: 10px;
+    left: 2px;
+}
+
+.next::after, .next::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    border: 20px solid transparent;
+    border-left: 20px solid black;
+}
+
+.next::after {
+    border-left: 20px solid white;
+    bottom: 10px;
+    left: 18px;
 }
