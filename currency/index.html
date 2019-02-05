@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="input">
+            <input class = 'input__input' type="number" onkeyup = 'calculate(this.value)'>
+            <select name = "currency" onchange = 'calculate(data)'>
+                <option value = "USD">USD</option>
+                <option value = "GBP">GBP</option>
+                <option value = "PLN">PLN</option>
+                <option value = "JPY">JPY</option>
+                <option value = "RUB">RUB</option>
+            </select>
+        </div>
+        <div class="output">
+            <input class = 'output__input' type="number" onkeyup = 'calculate(data)'> 
+        </div>
+    </div>
+</body>
+</html>
