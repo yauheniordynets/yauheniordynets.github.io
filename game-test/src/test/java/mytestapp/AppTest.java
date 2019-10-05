@@ -16,5 +16,14 @@ public class AppTest {
         $(By.name("loginname")).setValue("Test190");
         $(By.name("password")).setValue("test190");
         $(By.className("kh_btn")).click();
+        // should user switch account
+        $(By.id("logout")).click();
+        $(By.name("loginname")).setValue("Test191");
+        $(By.name("password")).setValue("test191");
+        $(By.className("kh_btn")).click();
+        $(By.id("logout")).click();
+        $(By.name("loginname")).setValue("Test192");
+        $(By.name("password")).setValue("test192");
+        $(By.className("kh_btn")).click();
     }
 }
