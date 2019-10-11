@@ -120,7 +120,7 @@ span.first {
 }
 
 #home {
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../img/main.jpg) no-repeat center;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../img/main.jpg) center;
     height: 100%;
     min-height: 700px;
     background-attachment: fixed;
@@ -445,6 +445,12 @@ footer .row {
 
 .copyright {
     color: #ffffff;
+}
+
+@media all and (min-width: 1500px) {
+    .portfolio_container {
+        margin: 0 12%;
+    }
 }
 
 @media all and (max-width: 768px) {
